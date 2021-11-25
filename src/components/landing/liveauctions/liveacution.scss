@@ -539,6 +539,7 @@ border-radius: 8px;
     .css-12o5qeh{
         color: var(--chakra-colors-gray-500);
         font-size: 14px;
+        padding-bottom: 40px;
     }
 }
 .ascbjkc{
@@ -586,12 +587,307 @@ border-radius: 8px;
     }
 }
 .sjcwjkbc{
+    height: 271px;
+    width: 100%;
+    background-image: url("/Assets/11440_screen.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     img{
-        width: 100%;
+        padding-top: 300px!important;
     }
+    .scsn{
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        width: 46%;
+        margin-inline: auto;
+        .main-one{
+            display: flex;
+            flex-direction: column;
+            background: var(--chakra-colors-gray-700);
+            border-radius: 25px;
+            text-align: center;
+            padding-inline: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-right: 0px;
+            max-width: 170px;
+            width: 100%;
+            margin-top: -30px;
+            .sbddx{
+                color: var(--chakra-colors-gray-500);
+                line-height: 18px;
+                font-size: 14px!important;
+            }
+            .sbddsdsx{
+                color: var(--chakra-colors-teal-150);
+                line-height: 20px;
+                font-weight: 600;
+                font-size: 18px!important;
+            }
+        }
+        .main-twodfc{
+            display: flex;
+            flex-direction: column;
+            background: var(--chakra-colors-gray-700);
+            border-radius: 25px;
+            max-width: 170px;
+            width: 100%;
+            text-align: center;
+            padding-inline: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 0px;
+            margin-top: -30px;
+            .sbddx{
+                color: var(--chakra-colors-gray-500);
+                line-height: 18px;
+                font-size: 14px!important;
+            }
+            .sbddsdsx{
+                color: var(--chakra-colors-teal-150);
+                line-height: 20px;
+                font-weight: 600;
+                font-size: 18px!important;
+            }
+        }
+        
+    }
+    .css-tf12sc{
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        width: 95%;
+        margin-inline: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-top: 10px;
+        .weeklyIncome{
+            display: flex;
+            flex-direction: column;
+            z-index: 999;
+            background: var(--chakra-colors-gray-700);
+            border-radius: 25px;
+            max-width: 170px;
+            width: 100%;
+            text-align: center;
+            padding-inline: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 0px;
+            .sbddx{
+                color: var(--chakra-colors-gray-500);
+                line-height: 18px;
+                font-size: 14px!important;
+            }
+            .sbddsdsx{
+                color: var(--chakra-colors-teal-150);
+                line-height: 20px;
+                font-weight: 600;
+                font-size: 18px!important;
+            }
+        }
+    }
+    .css-mgnhsd{
+        display: flex;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        width: 95%;
+        margin-inline: auto;
+        padding-top: 0px;
+        padding-bottom: 30px;
+        margin-top: -90px;
+        .cryptoCurrency{
+            display: flex;
+            flex-direction: row;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            background: var(--chakra-colors-gray-700);
+            border-radius: 25px;
+            cursor: pointer;
+            padding-inline: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-right: 0px;
+            max-width: 300px;
+            width: 100%;
+            .imagesdscf{
+                img{
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    padding-top: 0px!important;
+                    color: #fff;
+                }
+            }
+            .sbddx{
+                color: var(--chakra-colors-gray-500);
+                line-height: 18px;
+                font-size: 14px!important;
+            }
+            .sbddsdsx{
+                padding-top: 4px;
+                color: #fff;
+                line-height: 20px;
+                font-weight: 600;
+                font-size: 18px!important;
+            }
+        }
+        .cryptoCurrencydffcv{
+            display: flex;
+            flex-direction: row;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            background: var(--chakra-colors-gray-700);
+            border-radius: 25px;
+            cursor: pointer;
+            padding-inline: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-right: 0px;
+            max-width: 300px;
+            width: 100%;
+            .imagesdscf{
+                img{
+                    padding-top: 0px!important;
+                    width: 40px!important;
+                    height: 40px;
+                    border-radius: 50%;
+                    object-fit: cover;
+
+                }
+            }
+            .sbddx{
+                color: var(--chakra-colors-gray-500);
+                line-height: 18px;
+                font-size: 14px!important;
+            }
+            .sbddsdsx{
+                color: #fff;
+                padding-top: 4px;
+                line-height: 20px;
+                font-weight: 600;
+                font-size: 18px!important;
+            }
+        }
+    }
+    .css-1keu3gn{
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        width: 40%;
+        margin-inline: auto;
+        margin-top: 32px;
+        padding-top: 28px;
+        padding-bottom: 28px;
+        .income{
+            display: flex;
+            flex-direction: column;
+            background: var(--chakra-colors-gray-700);
+            border-radius: 25px;
+            text-align: center;
+            padding-inline: 25px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            min-width: 250px;
+            .csssdsf-1fjn34{
+                color: var(--chakra-colors-white);
+                font-weight: 600;
+                line-height: 18px;
+                font-size: 18px!important;
+            }
+            .csssfwf-1fjn34{
+                padding-bottom: 4px;
+                padding-top: 9px;
+                font-size: 22px!important;
+                color: var(--chakra-colors-teal-150);
+                line-height: 20px;
+                font-weight: 600;
+            }
+            .css-sfwev1fjn34{
+                color: var(--chakra-colors-cyan-400);
+                font-size: 14px!important;
+                font-weight: 400;
+            }
+        }
+    }
+  .sdjbs{
+      color: #fff;
+      margin-left: 8px;
+  }
+}
+.ascbjkc{
+    margin-top: 100px!important;
 }
 
 @media only screen and (max-width: 600px) {
+    .css-14rssscjm3z{
+        margin-bottom: 20px;
+    }
+    .fdsffv .css-1ieruea{
+        display: none!important;
+    }
+    .main-footer .css-6gyyc9 .sdbdjfbdsjf .css-2kvf7cerw .css-1cua7fv{
+        width: 100%;
+    }
+    .sjcwjkbc .css-1keu3gn{
+        padding-top: 0px;
+        margin-top: 0px;
+        width: 100%;
+    }
+    .sjcwjkbc .sdjbs{
+        margin-left: 0px;
+    }
+    .imagesdscf{
+        float: right;
+        text-align: right;
+        width: 40px;
+    }
+    .sjcwjkbc .css-mgnhsd .cryptoCurrencydffcv{
+        padding-inline: 15px;
+        margin-right: -27px;
+        margin-left: 10px;
+    }
+    .sjcwjkbc .css-mgnhsd .cryptoCurrency{
+        padding-inline: 15px;
+        margin-left: -27px;
+        margin-right: 10px;
+    }
+    .sjcwjkbc .css-mgnhsd{
+        padding-top: 0px;
+        padding-bottom: 30px;
+        margin-top: -5px;
+    }
+    .sjcwjkbc .css-tf12sc{
+        padding-top: 22px;
+        padding-bottom: 30px;
+        margin-top: 9px;
+    }
+    .sjcwjkbc{
+        height: 271px;  
+        margin: 0 auto; 
+        background-size: unset;
+    }
+    .ascbjkc{
+        margin-top: 150px!important;
+    }
+    .sjcwjkbc .scsn .main-twodfc{
+        min-width: 170px;
+    }
+    .sjcwjkbc .scsn .main-one{
+        min-width: 170px;
+    }
+    .sjcwjkbc .scsn{
+        width: 100%;
+    }
     .live-auctions .css-ndxi41 .css-337xfg{
         margin-bottom: 20px;
     } 
@@ -647,6 +943,17 @@ border-radius: 8px;
     }
 }
 @media only screen and (max-width: 400px) { 
+    .ajksbcjsb .css-1jmcsng{
+        font-size: 35px!important;
+    }
+    .sjcwjkbc .scsn .main-twodfc {
+        min-width: 150px;
+        margin-left: 10px;
+    }
+    .sjcwjkbc .scsn .main-one {
+        min-width: 150px;
+        margin-right: 6px;
+    }
     .live-auctions .css-3iv2ba .css-uqxdai .img-sddfxcdf{
         width: 52px;
         height: 52px;

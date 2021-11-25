@@ -524,3 +524,69 @@ color: #575E66;
         }
     }
 }
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+  .sjbshjcbw{
+      background: transparent;
+      border: none;
+      font-family: 'poppins';
+    font-size: 14px;
+    color: var(--chakra-colors-gray-500)!important;
+    letter-spacing: 0px;
+    padding-right: 30px!important;
+    padding-bottom: 0px!important;
+  }
+  .shdvcjhcv{
+      .SDBSHJD1{
+        top: 25PX;
+        left: -65px;
+        border-radius: 20px;
+        background-color: var(--chakra-colors-gray-700);
+        text-align: right;
+        .dropdown-item{
+          background-color: transparent;
+          font-size: 17px!important;
+          &:hover{
+              color: var(--chakra-colors-green-400);
+          }
+        }
+      }
+  }
+  .shdvcjhcv{
+    .SDBSHJD2{
+      top: 25PX;
+      left: -135px;
+      border-radius: 20px;
+      background-color: var(--chakra-colors-gray-700);
+      text-align: right;
+      .dropdown-item{
+        background-color: transparent;
+        font-size: 17px!important;
+        &:hover{
+            color: var(--chakra-colors-green-400);
+        }
+      }
+    }
+}
+.shdvcjhcv{
+    .SDBSHJD3{
+      top: 25PX;
+      left: -125px;
+      border-radius: 20px;
+      background-color: var(--chakra-colors-gray-700);
+      text-align: right;
+      .dropdown-item{
+        background-color: transparent;
+        font-size: 17px!important;
+        &:hover{
+            color: var(--chakra-colors-green-400);
+        }
+      }
+    }
+}

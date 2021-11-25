@@ -75,19 +75,16 @@ const Navbar = () => {
 
     return (
         <>
-
             <section className="main-navbar">
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-sm-12 m-auto ">
                             <nav className="navbar ptb20 navbar-expand-xl">
-
                                 <NavLink to="/" className="navbar-brand">
                                     <div className="css-70qvj9">
                                         <img src="\imagessss\logo-position.svg" alt="" className=" img-sddfascas" />
                                         <img src="\imagessss\Text-Logo.svg" alt="" className=" img-sddf" />
                                     </div>
-
                                 </NavLink>
                                 <div className="fdsffv">
                                     <button className="css-1ieruea">English <i class="fas fa-chevron-down cdmnvksn"></i></button>
@@ -96,9 +93,7 @@ const Navbar = () => {
                                     <span className="mdhfy"> <i class="fas fa-bars"></i></span>
                                 </button>
                                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
-
                                     <ul className="navbar-nav ml-auto">
-
                                         <li className="nav-item active">
                                             <a className="nav-link" href="#">Overview <span className="sr-only">(current)</span></a>
                                         </li>
@@ -106,9 +101,18 @@ const Navbar = () => {
                                             <a className="nav-link" href="#">Trading</a>
                                         </li>
                                         <li className="nav-item">
-                                            <Link className="nav-link" to="/Nftswap">Exchange <i class="fas ml-2 fa-chevron-down text-white"></i></Link>
+                                            <div class="dropdown shdvcjhcv">
+                                                <button class=" sjbshjcbw" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Exchange <i class="fas ml-2 fa-chevron-down text-white"></i>
+                                                </button>
+                                                <div class="dropdown-menu SDBSHJD1" aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item" href="#">Exchange Pro</a>
+                                                    <a class="dropdown-item" href="#">Exchange</a>
+                                                 
+                                                </div>
+                                            </div>
+                                           
                                         </li>
-
                                         <li className="nav-item">
                                             <Link to="/profile" className="nav-link" >Vaults</Link>
                                         </li>
@@ -119,24 +123,38 @@ const Navbar = () => {
                                             <a className="nav-link" href="#">Pools</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" href="#">NFTs  <i class="fas ml-2 fa-chevron-down text-white"></i></a>
+                                        <div class="dropdown shdvcjhcv">
+                                                <button class=" sjbshjcbw" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                NFTs  <i class="fas ml-2 fa-chevron-down text-white"></i>
+                                                </button>
+                                                <div class="dropdown-menu SDBSHJD2" aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item" href="#">NFTs</a>
+                                                    <a class="dropdown-item" href="#">NFTs Marketplace</a>
+                                                
+                                                </div>
+                                            </div>
+                                           
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" href="#"><i class="fas fa-ellipsis-h text-white dnsbdjs"></i></a>
+                                        <div class="dropdown shdvcjhcv">
+                                                <button class=" sjbshjcbw" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <i class="fas fa-ellipsis-h text-white dnsbdjs"></i>
+                                                </button>
+                                                <div class="dropdown-menu SDBSHJD3" aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item" href="#">Docs</a>
+                                                    <a class="dropdown-item" href="#">White Paper</a>
+                                                
+                                                </div>
+                                            </div>
+                                           
                                         </li>
-
                                         <li>
                                             <button className="css-14rssscjm3z" >
                                                 <img src="\imagessss\logo-position (1).svg" alt="" className=" css-l858m" />
                                                 <span className="css-17uqetv">$ 3.9728</span>
                                             </button>
                                         </li>
-                                        <li className="ml-3">
-                                            {/* <button className="css-14rjm3z" >
-                                                <span className="css-jipda8">0.00100 &nbsp;</span>
-                                                <span className="css-17uqetv">POSI</span>
-                                                <img src="\imagessss\download.png" alt="" className=" css-l858m" />
-                                            </button> */}
+                                        <li className="ml-md-3">
                                             <button className="hsbdhjs" data-toggle="modal" data-target="#exampleModal">Connect Wallet</button>
                                         </li>
                                     </ul>
@@ -162,21 +180,18 @@ const Navbar = () => {
                                                         <div className="dnkfzlxms">
                                                             <div className="dsnsc">
                                                                 <img src="\imagessss\trustwallet.svg" alt="" className=" css-l858m" />
-
                                                             </div>
                                                             <p className="djhcwkdjc">TrustWallet</p>
                                                         </div>
                                                         <div className="dnkfzlxms">
                                                             <div className="dsnsc">
                                                                 <img src="\imagessss\walletconnect.svg" alt="" className=" css-l858m" />
-
                                                             </div>
                                                             <p className="djhcwkdjc">WalletConnect</p>
                                                         </div>
                                                         <div className="dnkfzlxms">
                                                             <div className="dsnsc">
                                                                 <img src="\imagessss\tokenpocket.svg" alt="" className=" css-l858m" />
-
                                                             </div>
                                                             <p className="djhcwkdjc">TokenPocket</p>
                                                         </div>

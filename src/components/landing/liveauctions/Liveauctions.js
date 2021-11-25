@@ -235,18 +235,108 @@ const LiveAucations = () => {
                                 <p className="css-12o5qeh">Change parameters and get your own staking rate</p>
                             </div>
                             <div className="sjcwjkbc">
-                                <img src="\imagessss\staking-flow.svg" alt="" className=" d-md-block d-none img-sddfxcdf mt-4" />
-                                <img src="\imagessss\staking-flow-mobile.svg" alt="" className="d-md-none d-block img-sddfxcdf mt-4" />
+                                <div className="scsn">
+                                    <div className="main-one">
+                                        <p className="sbddx">APY*</p>
+                                        <p className="sbddsdsx">4,743.18%</p>
+                                    </div>
+                                    <div className="main-twodfc">
+                                        <p className="sbddx">Daily Icome</p>
+                                        <p className="sbddsdsx">$1.04</p>
+                                    </div>
+                                </div>
+                                <div className="css-tf12sc">
+                                    <div className="weeklyIncome">
+                                        <p className="sbddx">Weekly Income</p>
+                                        <p className="sbddsdsx">$7.04</p>
+                                    </div>
+                                </div>
+                                <div className="css-mgnhsd">
+                                    <div className="cryptoCurrency">
+                                        <div className="sdjbsd">
+                                            <p className="sbddx">Weekly Income</p>
+                                            <p className="sbddsdsx">$7.04</p>
+                                        </div>
+                                        <div className="imagesdscf">
+                                            <img src="\imagessss\coin-images.png" alt="" className="" />
+                                        </div>
+                                    </div>
+                                    <div className="cryptoCurrencydffcv">
+                                        <div className="sdjbsd">
+                                            <p className="sbddx">Weekly Income</p>
+                                            <p className="sbddsdsx">$7.04</p>
+                                        </div>
+                                        <div className="imagesdscf">
+                                            <img src="\imagessss\coin-images.png" alt="" className="" /> <span className="sdjbs">BUSD</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="css-1keu3gn">
+                                    <div className="income">
+                                        <p className=" csssdsf-1fjn34">Your Annual Income</p>
+                                        <p className=" csssfwf-1fjn34">~$4259.16</p>
+                                        <p className=" css-sfwev1fjn34">963.0623 POSI</p>
+                                    </div>
+                                </div>
+                                {/* <img src="\imagessss\staking-flow.svg" alt="" className=" d-md-block d-none img-sddfxcdf mt-4" />
+                                <img src="\imagessss\staking-flow-mobile.svg" alt="" className="d-md-none d-block img-sddfxcdf mt-4" /> */}
+
                             </div>
                             <div className="ascbjkc mt-3 mb-3">
                                 <p>The longer the duration of the placement of funds and the amount of staking, the higher your income.<br></br> You can withdraw money from staking at any time.<br></br> *Including all commissions.</p>
                             </div>
                             <div className="jhcvbwhvb">
-                                <button>Unlock Wallet</button>
+                                <button data-toggle="modal" data-target="#exampleModal">Unlock Wallet</button>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered cshvghvc">
+                        <div class="modal-content scscs">
+                            <div class="modal-header scswcewf">
+                                <h5 class="modal-title" id="exampleModalLabel">Connect to a wallet</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body rervewcc">
+                                <div className="cjbcj">
+                                    <div className="dnkfzlxms">
+                                        <div className="dsnsc">
+                                            <img src="\imagessss\metamask.svg" alt="" className=" css-l858m" />
+                                        </div>
+                                        <div>
+                                            <p className="djhcwkdjc">MetaMask</p>
+                                        </div>
+                                    </div>
+                                    <div className="dnkfzlxms">
+                                        <div className="dsnsc">
+                                            <img src="\imagessss\trustwallet.svg" alt="" className=" css-l858m" />
+
+                                        </div>
+                                        <p className="djhcwkdjc">TrustWallet</p>
+                                    </div>
+                                    <div className="dnkfzlxms">
+                                        <div className="dsnsc">
+                                            <img src="\imagessss\walletconnect.svg" alt="" className=" css-l858m" />
+
+                                        </div>
+                                        <p className="djhcwkdjc">WalletConnect</p>
+                                    </div>
+                                    <div className="dnkfzlxms">
+                                        <div className="dsnsc">
+                                            <img src="\imagessss\tokenpocket.svg" alt="" className=" css-l858m" />
+
+                                        </div>
+                                        <p className="djhcwkdjc">TokenPocket</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </section>
 
         </>
